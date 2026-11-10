@@ -7,25 +7,178 @@
     <link href="./styles/style.css" rel="stylesheet" />
 </head>
 <body>
-    <div>
-        <img src="./assets/geospatial-banner.png" alt="A banner representing geospatial analysis"> 
-        <h1><a href="www.linkedin.com/in/liviadegrossi"></a>Lívia Degrossi</h1>
-        <h3>Geospatial Software Engineer | Data Analysis | Machine Learning | Backend Development</h3>
-        <h5><i>Building systems and intelligent solutions for spatial data</i></h5>
-    </div>
 
-    <div>
-        <p>Geospatial Research Software Engineer holding a Ph.D. in Computer Science with 10+ years of experience 
-            in building data-intensive software and geospatial systems across the Netherlands and Brazil. </p>
+    <div class="side-panel">
+        <img class="side-panel image" src="./assets/livia-degrossi.jpg" alt="Photo of Lívia Degrossi" />
+        <h3>Lívia Degrossi</h3>
+        <div class="container-contact-info">
+            <img src="./assets/icon-location.svg" alt="Location icon" />
+            <p>Groningen, Netherlands</p>
+        </div>
+        <div class="container-contact-info">
+            <img src="./assets/icon-mail.svg" alt="Email icon" />
+            <p>liviadegrossi[at]gmail[dot]com</p>
+        </div>
+        <div class="container-contact-info">
+            <img src="./assets/InBug-White.png" alt="LinkedIn icon" />
+            <a href="https://www.linkedin.com/in/liviadegrossi" target="_blank">LinkedIn</a>
+        </div>
+        <div class="container-contact-info">
+            <img src="./assets/logo-GitHub.png" alt="GitHub icon" />
+            <a href="https://github.com/liviadegrossi" target="_blank">GitHub</a>
+        </div>
 
-        <p>Specialized in bridging the gap between Earth science research and operational software engineering. 
+        <p>
+            Geospatial Research Software Engineer holding a Ph.D. in Computer Science with 10+ years of experience 
+            in building data-intensive software and geospatial systems across the Netherlands and Brazil. 
+            Specialized in bridging the gap between Earth science research and operational software engineering. 
             Skilled in translating complex geospatial and environmental data into practical, high-impact digital solutions. 
             These solutions support technical and non-technical stakeholders in evaluating climate scenarios and responding to natural hazards, 
-            as evidenced by leading the development of a flood management platform that earned the <b> 2023 ESRC Celebrating Impact Prize for Outstanding 
-            Societal Impact </b></p>.
-
-        <p>Currently completing an MBA in Artificial Intelligence and Big Data to further advance data-driven solutions for environmental hazards and climate adaptation.</p>
+            as evidenced by leading the development of a flood management platform that earned the 
+            <a href="https://www.ukri.org/news/2023-esrc-celebrating-impact-prize-winners-announced/">2023 ESRC Celebrating Impact Prize 
+            for Outstanding Societal Impact</a>. Currently completing an MBA in Artificial Intelligence and Big Data to further advance data-driven 
+            solutions for environmental hazards and climate adaptation.
+        </p>
     </div>
+    
+    <div class="main-content">
+
+        <div class="main-header-container">
+            <img src="./assets/geospatial-banner.png" alt="A banner representing geospatial analysis"> 
+            <div class="main-header-text">
+                <h1><a href="www.linkedin.com/in/liviadegrossi">Lívia Degrossi, Ph.D.</a></h1>
+                <div class="main-headline">
+                    <h3>Geospatial Software Engineer | Data Science | Backend Development</h3>
+                    <h4><i>Building systems and intelligent solutions for spatial data</i></h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- what I build -->
+        <div class="main-build-container">
+            
+            <div class="main-header">
+                <img src="./assets/icon_build.svg" alt="What I Build" />
+                <h2>What I Build</h2>
+            </div>
+
+            <div class="main-build-projects">
+                
+                <div class="build-project">
+                    <img src="./assets/icon_map.svg" alt="Geospatial Systems" />
+                    <div>
+                        <h3>Geospatial Systems</h3>
+                        <p>Spatial data pipelines, vector and raster processing, GeoTIFF, and PostGIS</p>
+                    </div>
+                </div> 
+
+                <!-- Backend Development -->
+                <div class="build-project">
+                    <img src="./assets/icon_code.svg" alt="Backend Development" />
+                    <div>
+                        <h3>Backend Development</h3>
+                        <p>Robust and scalable APIs and backend services with Python, FastAPI, and PostgreSQL</p>
+                    </div>
+                </div>
+
+                <!-- Machine Learning -->
+                <div class="build-project">
+                    <img src="./assets/icon_network_node.svg" alt="Machine Learning" />
+                    <div>
+                        <h3>Data Science</h3>
+                        <p>Applied machine learning and spatial modelling to extract insights from geospatial data</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="main-projects-container">
+            
+            <div class="main-header">
+                <img src="./assets/icon_star.svg" alt="FeaturedProjects" />
+                <h2>Featured Projects</h2>
+            </div>
+
+            <div class="featured-projects">
+                <!-- GeoTIFF Processing API -->
+                <div class="project-card">
+                    <img src="./assets/project-geotiff-api.png" alt="GeoTIFF API" />
+                    <div>
+                        <h3>GeoTIFF Processing API</h3>
+                        <p>A REST API for raster data processing (e.g. format conversion) and storage.</p>
+                        <div class="project-tags">
+                            <img src="./assets/nodejsLight.svg" alt="Node.js Logo" />
+                        </div>
+                    </div>
+                    <a href="" target="_blank">
+                        <img src="./assets/icon_open_external.svg" alt="Open project using an external link"/>
+                    </a>
+                </div>
+                <!-- Spatial Decision Support System -->
+                <div class="project-card">
+                    <img src="./assets/project-3-flood.png" alt="GeoTIFF API" />
+                    <div>
+                        <h3>Spatial Decision Support System</h3>
+                        <p>The OGITO-FastFlood is a web-based decision support system that integrates the FastFlood simulation model, 
+                            a super-fast flood simulation model that has been developed at the Faculty of Geo-Information Science and Earth Observation (ITC), 
+                            for planning flood mitigation interventions.</p>
+                        <div class="project-tags">
+                            <img src="./assets/nodejsLight.svg" alt="Node.js Logo" />
+                            <img src="./assets/lockup_angular_wht.svg" alt="Angular Logo" />
+                            <img src="./assets/ts-lettermark-white.svg" alt="TypeScript Logo" />
+                            <img src="./assets/openlayers_logo.png" alt="OpenLayers Logo" />
+                        </div>
+                    </div>
+                    <a href="" target="_blank">
+                        <img src="./assets/icon_open_external.svg" alt="Open project using an external link"/>
+                    </a>
+                </div>
+                <!--  -->
+                <div class="project-card">
+                    <img src="./assets/project-2-gwr.png" alt="GeoTIFF API" />
+                    <div>
+                        <h3>MAUP influence on Data Quality Assessment</h3>
+                        <p>Assessing the quality of aggregated spatial data depends on the definition of the units of analysis. 
+                            The Modifiable Areal Unit Problem (MAUP) might affect the results of statistical analyses, leading to potentially different relationships among 
+                            variables used to measure the data quality.
+                        </p>
+                        <div class="project-tags">
+                            <img src="./assets/python-logo.svg" alt="Python Logo" />
+                            <img src="./assets/logo-postgresql.webp" alt="PostgreSQL Logo" />
+                            <img src="./assets/postgis-logo.png" alt="PostGIS Logo" />
+                            
+                        </div>
+                    </div>
+                    <a href="" target="_blank">
+                        <img src="./assets/icon_open_external.svg" alt="Open project using an external link"/>
+                    </a>
+                </div>
+                <!-- Citizen-generated Data Quality Assessment -->
+                <div class="project-card">
+                    <img src="./assets/project-4-cgi.png" alt="GeoTIFF API" />
+                    <div>
+                        <h3>Citizen-generated Data Quality Assessment</h3>
+                        <p></p>
+                        <div class="project-tags">
+                            <img src="./assets/python-logo.svg" alt="Python Logo" />
+                            <img src="./assets/logo-postgresql.webp" alt="PostgreSQL Logo" />
+                            <img src="./assets/postgis-logo.png" alt="PostGIS Logo" />
+                        </div>
+                    </div>
+                    <a href="" target="_blank">
+                        <img src="./assets/icon_open_external.svg" alt="Open project using an external link"/>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Tech Stack -->
+
+
+    </div>
+    
 
 </body>
 </html>
